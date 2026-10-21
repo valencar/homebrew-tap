@@ -1,9 +1,8 @@
 cask "crafted-herdr" do
-  version "0.4.0"
-  sha256 "9abfbc8ce9db7d3fb72fcb370a5e01f70bd1a9a3bd812366e38c650e426a105c"
+  version "0.5.0"
+  sha256 "6590cf22057cde3b0b8f297619f2d92fe2fa86aba8614ff94946f9dc3d941197"
 
-  url "https://github.com/valencar/crafted-herdr-ui/releases/download/v#{version}/Crafted.Herdr_#{version}_universal.dmg",
-      verified: "github.com/valencar/crafted-herdr-ui/"
+  url "https://github.com/valencar/crafted-herdr-ui/releases/download/v#{version}/Crafted.Herdr_#{version}_universal.dmg"
   name "Crafted Herdr"
   desc "Desktop home for herdr agents, grouped by project"
   homepage "https://valencar.github.io/crafted-herdr-ui/"
@@ -13,7 +12,7 @@ cask "crafted-herdr" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Crafted Herdr.app"
 
