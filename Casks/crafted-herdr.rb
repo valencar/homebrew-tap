@@ -1,6 +1,6 @@
 cask "crafted-herdr" do
-  version "0.7.0"
-  sha256 "1b5298250e9072006fac9d50655d48ff6072aa8d8fa4f11246ac2a33236ab9bb"
+  version "0.7.1"
+  sha256 "bc5b59957e87fc345ab6364c1797f48db44088db4b3682b557fc55bac09f3f39"
 
   url "https://github.com/valencar/crafted-herdr-ui/releases/download/v#{version}/Crafted.Herdr_#{version}_universal.dmg"
   name "Crafted Herdr"
